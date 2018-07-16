@@ -37,13 +37,13 @@ form {
 				ms-transform: skewX(-10deg); /* IE 9 */
     			-webkit-transform: skewX(-10deg); /* Safari */
     			transform: skewX(-10deg); /* Standard syntax */
-   				background: linear-gradient(#ffffff, #E8E8E8);
+   				background: linear-gradient(#E8E8E8, #ffffff);
 			}
 			&:nth-child(even) {
 				ms-transform: skewX(10deg); /* IE 9 */
     			-webkit-transform: skewX(10deg); /* Safari */
     			transform: skewX(10deg); /* Standard syntax */
-    			background: linear-gradient(#E8E8E8, #ffffff);
+    			background: linear-gradient(#ffffff, #E8E8E8);
 			}
 			&:last-child {
 				border-bottom: 1px solid #E8E8E8;
