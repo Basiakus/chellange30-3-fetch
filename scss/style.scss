@@ -52,11 +52,15 @@ form {
 				border-top: 1px solid #E8E8E8;
 			}
 			.results {
+				&:before {
+					content: '\01F3E0  ';
+					font-size: 1em;
+				}
 			}
 			.population {
 				&:before {
-					content: 'population: ';
-					font-size: .5em;
+					content: '\26A4  ';
+					font-size: 1em;
 				}
 			}
 			.activeSearch {
@@ -73,11 +77,13 @@ form {
     body {
     	input#search {
     		font-size: 1em;
+    		width: 100%;
     	}
         ul#searchResult {
+        	margin: 0 auto;
         	width: 90%;
         	li {
-        		font-size: .8em;
+        		font-size: .7em;
         	}
         }
     }

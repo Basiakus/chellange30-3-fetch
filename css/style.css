@@ -50,9 +50,12 @@ form {
         border-bottom: 1px solid #E8E8E8; }
       form ul#searchResult li:first-child {
         border-top: 1px solid #E8E8E8; }
+      form ul#searchResult li .results:before {
+        content: '\01F3E0  ';
+        font-size: 1em; }
       form ul#searchResult li .population:before {
-        content: 'population: ';
-        font-size: .5em; }
+        content: '\26A4  ';
+        font-size: 1em; }
       form ul#searchResult li .activeSearch {
         color: #000080;
         font-style: italic;
@@ -61,10 +64,12 @@ form {
 
 @media only screen and (max-width: 768px) {
   body input#search {
-    font-size: 1em; }
+    font-size: 1em;
+    width: 100%; }
   body ul#searchResult {
+    margin: 0 auto;
     width: 90%; }
     body ul#searchResult li {
-      font-size: .8em; } }
+      font-size: .7em; } }
 
 /*# sourceMappingURL=style.css.map */
